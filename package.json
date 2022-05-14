@@ -1,0 +1,22 @@
+{
+  "name": "socket-proxy",
+  "version": "1.0.0",
+  "description": "Simple socket proxy",
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Nekiro",
+  "license": "ISC",
+  "dependencies": {
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel": "^6.23.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
