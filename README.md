@@ -9,7 +9,7 @@ Configure desired proxies and server port in config.json
 ```
 npm install
 ```
-
+(npm install @types/node --save-)
 ### Dev:
 
 ```
